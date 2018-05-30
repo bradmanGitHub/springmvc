@@ -8,6 +8,7 @@
 </head>
 <body>
 	welcome page for test!!!
+	hanaga
 	</form>
 </body>
 </html>
