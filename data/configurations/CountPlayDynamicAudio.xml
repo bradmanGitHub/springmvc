@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration SYSTEM "../../../../dtds/ActionElementConfiguration.dtd">
+<configuration class="com.audium.server.action.counter.CounterAction" serial="0000">
+<setting name="initial">0</setting>
+<setting name="type">increment</setting>
+<setting name="step">1</setting>
+</configuration>

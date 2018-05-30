@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration SYSTEM "../../../../dtds/VoiceElementConfiguration.dtd">
+<configuration class="com.audium.server.voiceElement.audio.MAudio" serial="0000">
+<new_data>
+<set_element create="before_enter" log="false" name="EHD_PQ_BN_CCPL_PQ_Audio" type="string">CallRouting/3000.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_BN_LGPN_PQ_Audio" type="string">CallRouting/3001.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_BN_Credit_PQ_Audio" type="string">CallRouting/3002.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_SO_Contact_PQ_Audio" type="string">CallRouting/3003.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_BN_Process_PQ_Audio" type="string">CallRouting/3004.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_BN_NonCredit_PQ_Audio" type="string">CallRouting/3005.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_BN_Accounting_PQ_Audio" type="string">CallRouting/3006.wav</set_element>
+<set_element create="before_enter" log="false" name="MF_PQ_SV_MF_BN_PQ_Audio" type="string">CallRouting/3007.wav</set_element>
+<set_element create="before_enter" log="false" name="MF_PQ_SV_MF_RM_PQ_Audio" type="string">CallRouting/3008.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_KAsset_PQ_Audio" type="string">CallRouting/3009.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_MTLife_PQ_Audio" type="string">CallRouting/3010.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_MTInsurance_PQ_Audio" type="string">CallRouting/3011.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_BN_NonIT_PQ_Audio" type="string">CallRouting/3012.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_IT_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_eMachine_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_HQ_NonIT_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Retail_Account_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Retail_ATM_DebitCard_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Retail_KPlus_KCyber_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Retail_MF_Insurance_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Retail_CreditCard_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Corp_Account_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Corp_Cheque_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Corp_Merchant_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Corp_EService_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Corp_Card_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Retail_CHI_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Retail_ENG_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Retail_JAP_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Retail_MYA_PQ_Audio" type="string">CallRouting/silence.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Complaint_CreditCard_PQ_Audio" type="string">CallRouting/3014.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Complaint_LG_PQ_Audio" type="string">CallRouting/3015.wav</set_element>
+<set_element create="before_enter" log="false" name="EHD_PQ_Complaint_Others_PQ_Audio" type="string">CallRouting/3016.wav</set_element>
+<set_element create="before_enter" log="false" name="PQ_Audio_Default" type="string">CallRouting/silence.wav</set_element>
+</new_data>
+</configuration>

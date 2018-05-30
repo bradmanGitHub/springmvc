@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration SYSTEM "../../../../dtds/VoiceElementConfiguration.dtd">
+<configuration class="com.audium.server.voiceElement.internal.CiscoSubdialogReturnElement" serial="0000">
+<setting name="caller_input">T</setting>
+<setting name="FromExtVXML0">{0}</setting>
+<setting name="FromExtVXML1">NA|None|RO:NA:NA:NA|NA|NA|N|0</setting>
+<setting name="FromExtVXML2">NA|NA</setting>
+<setting name="FromExtVXML3">NA|NA|N</setting>
+<substitute index="0">
+<data>
+<session name="S_VXML_0"/>
+</data>
+</substitute>
+</configuration>

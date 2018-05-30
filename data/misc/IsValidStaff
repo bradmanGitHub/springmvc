@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE knowledge_base SYSTEM "../../../../dtds/DecisionKnowledgeBase.dtd">
+<knowledge_base>
+    <rule default_exit_state="No" name="IsValidStaff">
+        <exit_state conjugate="and" name="Yes">
+            <string operator="equal">
+                <data>
+                    <session name="S_IS_EMPLOYEE"/>
+                </data>
+                <constant_string value="Y"/>
+            </string>
+        </exit_state>
+	  <exit_state conjugate="and" name="Error">
+            <string operator="equal">
+                <data>
+                    <session name="S_STR_ERRORCODE"/>
+                </data>
+                <constant_string value="1"/>
+            </string>
+        </exit_state>
+    </rule>
+</knowledge_base>

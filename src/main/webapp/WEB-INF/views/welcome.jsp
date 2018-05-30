@@ -7,8 +7,8 @@
 <title>Yahoo!!!</title>
 </head>
 <body>
-	welcome page for test!!!
-	hanaga the-one
+	welcome ${name} and password is ${password }. <br/>
+	Now, you can <a href="/list-todos">manage your todos.</a>
 	</form>
 </body>
 </html>
