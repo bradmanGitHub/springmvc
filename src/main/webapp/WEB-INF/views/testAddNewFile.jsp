@@ -8,7 +8,7 @@
 </head>
 <body>
 	welcome page test modify HANAGA
-	THE ONE MAN SHOW ++++
+	THE ONE MAN SHOW
 	</form>
 </body>
 </html>
