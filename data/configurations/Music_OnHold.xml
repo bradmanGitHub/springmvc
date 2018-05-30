@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE configuration SYSTEM "../../../../dtds/DecisionElementConfiguration.dtd">
-<configuration class="com.audium.server.voiceElement.CommentedOutElement" serial="0000">
-<setting name="exitState">done</setting>
-</configuration>

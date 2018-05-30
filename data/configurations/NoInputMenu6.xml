@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE configuration SYSTEM "../../../../dtds/VoiceElementConfiguration.dtd">
-<configuration class="com.audium.server.voiceElement.audio.MAudio" serial="0000">
-<audio_group bargein="true" count="1" name="initial_audio_group">
-<audio name="audio item 1" src="8855ContactCenter/4001.wav" use_default_path="true"/>
-</audio_group>
-</configuration>

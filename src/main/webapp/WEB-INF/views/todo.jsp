@@ -1,14 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Yahoo!!!</title>
-</head>
+<%@include file="common/header.jsp" %>
+<%@include file="common/navigation.jsp" %>
 <body>
-	<h1>Add a todo</h1>
-	<form method="post">
-		<input name="desc" type="text" />
-		<input type="submit" value="Add Todo" />
-	</form>
-</body>
-</html>
+	<div>
+		<h1>Add a todo</h1>
+		<form:form method="post" commandName="todo">
+			<form:hidden path="id"/>
+			<form:hidden path="user"/>
+			<fieldset class="form-group">
+				<form:label path="desc">Description </form:label> 
+				<form:input path="desc" type="text" class="form-control" required="required"/>
+				<form:errors path="desc" cssClass="text-warnint"></form:errors>
+			</fieldset>
+			
+			<fieldset class="form-group">
+				<form:label path="targetDate">Target Date </form:label> 
+				<form:input path="targetDate" type="text" class="form-control" required="required"/>
+				<form:errors path="targetDate" cssClass="text-warnint"></form:errors>
+			</fieldset>
+			
+			<input type="submit" class="btn btn-success" value="Submit" />
+		</form:form>
+	</div>
+<%@include file="common/footer.jsp" %>
