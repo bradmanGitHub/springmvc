@@ -7,8 +7,7 @@
 <title>Yahoo!!!</title>
 </head>
 <body>
-	welcome page test modify HANAGA
-	THE ONE MAN SHOW ++++
+	welcome page for test!!!
 	</form>
 </body>
 </html>
