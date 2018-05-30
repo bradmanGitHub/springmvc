@@ -8,7 +8,7 @@
 </head>
 <body>
 	welcome page for test!!!
-	hanaga kkkkkkkk
+	hanaga the-one
 	</form>
 </body>
 </html>
