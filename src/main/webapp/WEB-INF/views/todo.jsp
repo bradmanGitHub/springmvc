@@ -1,7 +1,7 @@
 <%@include file="common/header.jsp" %>
 <%@include file="common/navigation.jsp" %>
 <body>
-	<div>
+	<div class="container">
 		<h1>Add a todo</h1>
 		<form:form method="post" commandName="todo">
 			<form:hidden path="id"/>

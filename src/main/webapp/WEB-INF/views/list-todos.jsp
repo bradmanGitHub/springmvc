@@ -2,9 +2,8 @@
 <%@include file="common/navigation.jsp" %>
 
 	<div class="container">
-		Hi ${name }<br>
 		<table class="table">
-			<caption>Your Todos are</caption>
+			<caption><spring:message code="todo.caption" /></caption>
 			<thead>
 				<tr>
 					<th>Description</th>
